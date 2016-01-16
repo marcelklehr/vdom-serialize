@@ -25,7 +25,7 @@ The problem is that virtual-dom's objects have the crucial property, their `type
 So, to fix this, vdom-serialize traverses the VTree and adds those properties explcitly (Thunks are rendered beforehand, of course). That's all.
 
 ## Drawbacks
-Hooks can be serialized, sadly, since they require the hook method to be set on their prototype, not directly.
+Hooks cannot be serialized, sadly, since they require the hook method to be set on their prototype, not directly.
 
 ## Legal
 (c) 2016 by Marcel Klehr
