@@ -1,0 +1,24 @@
+{
+  "name": "vdom-serialize",
+  "version": "1.0.0",
+  "description": "Serialize virtual-dom trees savely, so they're still usable after deserializing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelklehr/vdom-serialize.git"
+  },
+  "keywords": [
+    "virtual-dom",
+    "vdom",
+    "serialize"
+  ],
+  "author": "Marcel Klehr <mklehr@gmx.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcelklehr/vdom-serialize/issues"
+  },
+  "homepage": "https://github.com/marcelklehr/vdom-serialize#readme"
+}
